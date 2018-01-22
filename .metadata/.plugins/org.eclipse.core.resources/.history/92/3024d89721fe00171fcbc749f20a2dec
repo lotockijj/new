@@ -1,0 +1,22 @@
+package ss;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class FibonacciTest {
+	private Fibonacci fib;
+	
+	@Before
+	public void setUp() throws Exception {
+		fib = new Fibonacci();
+	}
+
+	@Test
+	public void testSolution() {
+		int result = fib.solution(5);
+		System.out.println(result);
+	}
+
+}

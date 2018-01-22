@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;copyNubmers&apos; in &apos;ss.SortList.getSortedList2(...)&apos; to &apos;copyNumbers&apos;&#x0D;&#x0A;- Original project: &apos;two&apos;&#x0D;&#x0A;- Original element: &apos;ss.SortList.getSortedList2(List&lt;Integer&gt;).copyNubmers&apos;&#x0D;&#x0A;- Renamed element: &apos;copyNubmers&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;copyNubmers&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java&lt;ss{SortList.java[SortList~getSortedList2~QList\&lt;QInteger;&gt;;@copyNubmers!302!398!316!326!QList\&lt;QInteger;&gt;;!0!false" name="copyNumbers" references="true" stamp="1516638114718" version="1.0"/>
+</session>

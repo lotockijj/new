@@ -1,0 +1,21 @@
+package ss;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class NumberLettersTest {
+	private NumberLetters num;
+	
+	@Before
+	public void setUp() throws Exception {
+		num = new NumberLetters();
+	}
+
+	@Test
+	public void testSolution() {
+		String str = "Hello, Hello Roman!";
+		String result = num.solution(str);
+		System.out.println(result);
+	}
+
+}

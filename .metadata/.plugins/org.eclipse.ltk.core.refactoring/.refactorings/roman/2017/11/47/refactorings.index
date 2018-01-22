@@ -1,0 +1,10 @@
+1510646074086	Copy compilation unit
+1510646412382	Move compilation unit
+1510646430309	Delete element
+1510753845856	Rename local variable 'oldArray'
+1510754820595	Rename field 'sArray'
+1510759863855	Rename field 'size'
+1510857028312	Delete elements
+1510857277014	Delete element
+1510866241401	Rename type 'StringComparator'
+1510909911272	Rename method 'fill'

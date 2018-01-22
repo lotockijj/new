@@ -1,0 +1,30 @@
+package first;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Date;
+
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class FirstServlet extends HttpServlet{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 7537293911475438004L;
+
+	public void doGet(HttpServletRequest request, HttpServletResponse responce) throws IOException{
+		PrintWriter out = responce.getWriter();
+		Date today = new Date();
+		out.println("<html>" + 
+				"<body>" + 
+				"<h1 style=\"text-align:center\">" +
+				"HF\'s Chapter2 Servlet</h1>" + 
+				"<br>" + today +
+				"</body>" + 
+				"<html>");
+	}
+
+}

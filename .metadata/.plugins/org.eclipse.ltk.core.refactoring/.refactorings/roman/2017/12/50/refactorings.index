@@ -1,0 +1,12 @@
+1512392213946	Rename local variable 'setNameMethod'
+1512393991343	Rename local variable 'dogClassName'
+1512554268478	Rename method 'hasEveryOneHeard'
+1512554998155	Rename method 'thereIsAnyOneHeardFirstTime'
+1512561486336	Rename type 'Parent'
+1512565249642	Infer generic type arguments
+1512568488080	Delete element
+1512835257891	Delete element
+1512850237926	Rename method 'connectToMySQL'
+1512852001495	Rename local variable 'list'
+1512933593799	Rename type 'AddressGenerator'
+1512933607018	Rename type 'CarGenerator'

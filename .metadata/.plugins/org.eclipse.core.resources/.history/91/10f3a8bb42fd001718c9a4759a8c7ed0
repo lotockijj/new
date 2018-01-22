@@ -1,0 +1,21 @@
+package ss;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+public class MaxValueRecursionTest {
+
+	@Test
+	public void testSolution() {
+		List<Integer> numbers = Arrays.asList(2, 3, 5, 100, 1, 4);
+		int max = MaxValueRecursion.solution(numbers);
+		Assert.assertEquals(100, max);
+		List<Integer> numbers2 = Arrays.asList(-4, -100, -10, -15);
+		int max2 = MaxValueRecursion.solution(numbers2);
+		Assert.assertEquals(-4, max2);
+	}
+
+}

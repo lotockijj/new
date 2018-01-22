@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;A&apos; in &apos;codility.lesson5.PassingCarsTest.testSolution()&apos; to &apos;arr&apos;&#x0D;&#x0A;- Original project: &apos;roman&apos;&#x0D;&#x0A;- Original element: &apos;codility.lesson5.PassingCarsTest.testSolution().A&apos;&#x0D;&#x0A;- Renamed element: &apos;A&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;A&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/test\/java&lt;codility.lesson5{PassingCarsTest.java[PassingCarsTest~testSolution@A!271!296!277!277!\[I!0!false" name="arr" references="true" stamp="1515136964820" version="1.0"/>
+</session>

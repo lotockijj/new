@@ -1,0 +1,23 @@
+package ss;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class NumberLetters {
+	
+	public String solution(String str) {
+		Map<Character, Integer> letterSum = new HashMap<>();
+		for (int i = 0; i < str.length(); i++) {
+			char c = str.charAt(i);
+			if(!Character.isAlphabetic(c)) {
+				continue;
+			}
+			if(letterSum.containsKey(c)) {
+				letterSum.put(c, letterSum.get(c) + 1);
+			} else {
+				letterSum.put(c, 1);
+			}
+		}
+		return letterSum.toString();
+	}
+}

@@ -1,0 +1,28 @@
+package ss;
+
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+
+public class SumNumbersTest {
+	SumNumbers sum;
+	
+	@Before
+	public void setUp(){
+		sum = new SumNumbers();
+	}
+
+	@Test
+	public void testSolution() {
+		int number = 1234;
+		int result = sum.solution(number);
+		Assert.assertEquals(10, result);
+	}
+	
+	@Test
+	public void testSolution2() {
+		int number = 12345;
+		int result = sum.solution(number);
+		Assert.assertEquals(15, result);
+	}
+}

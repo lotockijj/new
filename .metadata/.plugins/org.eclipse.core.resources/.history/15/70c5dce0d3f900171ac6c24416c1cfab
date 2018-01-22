@@ -1,0 +1,11 @@
+package eckel.thread;
+
+public class WaitingTask implements Runnable {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

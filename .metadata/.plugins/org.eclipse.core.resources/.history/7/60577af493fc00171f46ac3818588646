@@ -1,0 +1,9 @@
+package hello.storage;
+
+public class StorageFileNotFoundException extends Exception{
+	private static final long serialVersionUID = 1L;
+	
+	public StorageFileNotFoundException(String s) {
+		super(s);
+	}
+}
